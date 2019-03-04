@@ -12,18 +12,18 @@
 </head>
 <body>
 <header>
-  <nav>
+  <nav id="navbar">
     <h2><a href="#" id="logo">myavakinlife</a></h2>
     <button class="nav-button fa fa-bars"></button>
     <div>
 <!--     <ul> -->
       <ul>
         <button class="exit-menu fa fa-times"></button>
-        <li><a href="#" class="active">about us</a></li>
-        <li><a href="#">gallery</a></li>
-        <li><a href="#">tips and tricks</a></li>
-        <li><a href="#">tools</a></li>
-        <li><a href="#">contact us</a></li>
+        <li><a href="#about" class="active">about us</a></li>
+        <li><a href="#gallery">gallery</a></li>
+        <li><a href="#tipsntricks">tips and tricks</a></li>
+        <li><a href="#tools">tools</a></li>
+        <li><a href="#contactus">contact us</a></li>
       </ul>
 <!--     </ul> -->
     </div>
@@ -37,7 +37,7 @@
   </div>
 </header>
 
-<section class="add-padding add-flex">
+<section id = "about" class="add-padding add-flex">
   <div class="center-text">
     <h1 class="alex-brush"><span class="custom-font">Discover</span><br />OUR STORY</h1>
     <h2>*</h2>
@@ -52,7 +52,7 @@
   <h1 class="custom-h1 alex-brush"><span class="custom-font">My Avakin</span><br />GALLERY</h1>
 </section>
 
-<section class="menu add-flex add-padding">
+<section id = "gallery" class="menu add-flex add-padding">
   <div class="menu-images">
     <img src="./img/gallery1.jpg"  data-aos="fade-down" data-aos-delay="300"/>
     <img src="./img/gallery2.jpg" data-aos="fade-left" data-aos-delay="300"/>
@@ -62,7 +62,7 @@
   <div class="center-text">
     <h1><span class="custom-font alex-brush">Discover</span><br />GALLERY</h1>
     <h2>*</h2>
-    <p>Your world, your choices. Play Avaking Life the way you want and live the life of your choice. 
+    <p>Your world, your choices. Play Avakin Life the way you want and live the life of your choice. 
       Explore photography, edits, home decors and much more. 
       View our gallery to get a glimpse of the Avakin Life in our way.</p>
     <a href="#">view the full gallery</a>
@@ -73,11 +73,12 @@
   <h1 class="custom-h1"><span class="custom-font alex-brush">The perfect</span><br />TIPS AND TRICKS</h1>
 </section>
 
-<section class="add-flex reservation-section">
+<section id = "tipsntricks" class="add-flex reservation-section">
   <div class="center-text add-padding">
     <h1><span class="custom-font alex-brush">Awsome</span><br />TIPS & TRICKS</h1>
     <h2>*</h2>
-    <p>Want to know the tips and tricks to play the game in a better way? Find out more here about all the secret tips and trick 
+    <p>Want to know the tips and tricks to play the game in a better way? How to get maximum XP points? How to earn avacoins? The best spots to hangout and much more. 
+      Find out all about all the secret tips and tricks 
       of Avakin Life.
     </p>
     <a href="#">Learn More</a>
@@ -89,9 +90,9 @@
 </section>
 
 <footer>
-  <button class="to-top"><i class="fa fa-chevron-up"></i>TOP</button>
+  <button style="cursor: pointer;" class="to-top" href="#navbar"><i class="fa fa-chevron-up"></i>TOP</button>
   
-  <div class="restaurant-info">
+  <div id = "contactus" class="restaurant-info">
   
     <div class="locations">
       <h4>LOCATIONS</h4>
